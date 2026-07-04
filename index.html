@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    
+    <!-- External CSS Link (Styles the paragraphs) -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Internal CSS (Styles the heading) -->
+    <style>
+        h1 {
+            color: #2c3e50;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Heading (Styled by Internal CSS) -->
+    <h1>Welcome to My Webpage</h1>
+
+    <!-- Image -->
+    <div style="text-align: center; margin: 20px 0;">
+        <img src="me3.jpg" alt="Placeholder Image" style="max-width: 100%; height: auto; border-radius: 8px;">
+    </div>
+
+    <!-- Three Paragraphs (Styled by External CSS) -->
+    <p>This is the first paragraph. It is styled using an external stylesheet, which keeps our HTML clean and allows us to change the look of multiple pages all at once.</p>
+    
+    <p>This is the second paragraph. External CSS is generally considered the best practice for styling large websites because it separates your content from your presentation.</p>
+    
+    <p>This is the third paragraph. Notice how all three paragraphs share the exact same font, color, and spacing rules defined in the external file.</p>
+
+    <!-- Button (Styled by Inline CSS) -->
+    <div style="text-align: center; margin-top: 20px;">
+        <button style="background-color: #3498db; color: white; font-size: 16px; padding: 12px 24px; border: none; border-radius: 5px; cursor: pointer; font-weight: bold;">
+            Click Me!
+        </button>
+    </div>
+
+</body>
+</html>

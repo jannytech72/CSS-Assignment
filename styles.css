@@ -1,0 +1,11 @@
+/* External CSS (Styles all p tags in index.html) */
+p {
+    /* 'Times New Roman' is wrapped in quotes because it has spaces in the name. */
+    /* 'Times' and 'serif' are standard fallbacks just in case. */
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;       
+    color: #34495e;        
+    line-height: 1.6;      
+    margin: 15px auto;     
+    max-width: 800px;      
+}
